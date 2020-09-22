@@ -1,0 +1,13 @@
+<svg id="main">
+	<svg id="clock-container">
+		<text id="day-of-week" class="time-stat stat" />
+		<text id="time-of-day" class="time-stat stat" />
+		<text id="clock" />
+	</svg>
+	<svg id="stat-container">
+		<text id="stat-text" class="stat" />
+		<image id="stat-icon" class="stat icon" href="icons/stat_steps_solid_48px.png" />
+	</svg>
+	<!--USE KPAY UI CODE - DO NOT MODIFY BELOW THIS LINE - ADD ALL OWN UI CODE ABOVE THIS LINE -->
+	<g layer="10000"><use href="#kpay" /></g>
+</svg>

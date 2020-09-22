@@ -1,0 +1,83 @@
+*
+{
+	fill: #FFFFFF;
+	font-family: "Tungsten";
+	text-length: 16;
+}
+
+svg#main
+{
+	viewport-fill: #000000;
+}
+
+.stat
+{
+	font-size: 48;
+}
+
+/* Clock */
+
+#clock-container
+{
+	y: 5%;
+
+	height: 67%;
+}
+
+#clock
+{
+	x: 50%;
+	y: 190;
+
+	text-align: center;
+	text-anchor: middle;
+	font-size: 192;
+}
+
+.time-stat
+{
+	y: 40;
+}
+
+#time-of-day
+{
+	x: 99%;
+
+	text-align: right;
+	text-anchor: end;
+}
+
+#day-of-week
+{
+	x: 1%;
+
+	text-align: left;
+	text-anchor: start;
+}
+
+/* Activity */
+
+#stat-container
+{
+	y: 77%;
+
+	height: 48;
+	width: 45%;
+}
+
+#stat-icon
+{
+	x: 0;
+	y: 50%-12;
+
+	height: 24;
+	width: 24;
+}
+
+#stat-text
+{
+	x: 100%;
+	y: 50%+18;
+
+	text-anchor: end;
+}

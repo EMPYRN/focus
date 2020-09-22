@@ -1,0 +1,23 @@
+/* Ionic Styles */
+
+.stat
+{
+	font-size: 38;
+}
+
+#clock
+{
+	y: 170;
+
+	font-size: 172;
+}
+
+.time-stat
+{
+	y: 30;
+}
+
+#stat-text
+{
+	y: 50%+12;
+}

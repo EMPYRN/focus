@@ -1,0 +1,42 @@
+{
+	"name": "Focus",
+	"version": "1.0.0",
+	"private": true,
+	"license": "MIT",
+	"fitbit": {
+		"appType": "clockface",
+		"appDisplayName": "Focus",
+		"appUUID": "48d57eb9-d675-4178-a95f-e8fed99809ce",
+		"iconFile": "resources/icon.png",
+		"wipeColor": "#FFFFFF",
+		"requestedPermissions": [
+			"access_activity",
+			"access_internet",
+			"access_app_cluster_storage"
+		],
+		"buildTargets": [
+			"higgs",
+			"meson",
+			"gemini",
+			"mira"
+		],
+		"i18n": {
+			"en": {
+				"name": "Focus"
+			}
+		},
+		"appClusterID": "empyrn",
+		"developerID": "a2573b74-3ab8-4d91-9ed3-cfcb9f02810d",
+		"defaultLanguage": "en-US"
+	},
+	"devDependencies": {
+		"@fitbit/sdk": "~4.2.1",
+		"@fitbit/sdk-cli": "^1.7.3"
+	},
+	"scripts": {
+		"build": "fitbit-build"
+	},
+	"dependencies": {
+		"io-ts": "^2.2.10"
+	}
+}
